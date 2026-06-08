@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Whipped Extension</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 680px; margin: 60px auto; padding: 0 24px; color: #1a1a1a; line-height: 1.6; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1rem; margin-top: 2rem; }
+    p, ul { margin: 0.5rem 0; }
+    ul { padding-left: 1.4rem; }
+    .updated { color: #666; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy — Whipped Extension</h1>
+  <p class="updated">Last updated: June 8, 2026</p>
+
+  <h2>Summary</h2>
+  <p>The Whipped extension does not collect, store, transmit, or share any personal data or browsing data. It has no server connection of any kind.</p>
+
+  <h2>Data collected</h2>
+  <p>None. The extension does not collect any data.</p>
+
+  <h2>How the extension works</h2>
+  <p>When you click the toolbar icon, the extension injects a small script into the active tab so you can select a UI element. The selected element's component name, source file path, and DOM context are assembled into a text block and placed on your clipboard. This all happens locally in your browser.</p>
+
+  <p>The extension does not:</p>
+  <ul>
+    <li>Send any data to any server</li>
+    <li>Store any data between sessions</li>
+    <li>Read page content except during an active select session you trigger</li>
+    <li>Track your browsing history or the pages you visit</li>
+    <li>Use cookies or any persistent storage</li>
+  </ul>
+
+  <h2>Permissions used</h2>
+  <ul>
+    <li><strong>activeTab</strong> — reads the active tab's DOM only during a select session you initiate by clicking the toolbar icon</li>
+    <li><strong>scripting</strong> — injects the element inspector script into the active tab on demand</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>For questions, open an issue at <a href="https://github.com/nxnom/whipped-extension/issues">github.com/nxnom/whipped-extension/issues</a>.</p>
+</body>
+</html>
