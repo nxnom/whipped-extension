@@ -3,6 +3,8 @@
   "name": "Whipped",
   "version": "1.0.0",
   "description": "Click any UI element to capture its component + source location, then copy a ready-to-paste prompt for your AI coding agent.",
+  "homepage_url": "https://github.com/nxnom/whipped-extension",
+  "minimum_chrome_version": "111",
   "permissions": ["activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"
