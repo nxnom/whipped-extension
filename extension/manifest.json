@@ -9,21 +9,6 @@
   "background": {
     "service_worker": "background.js"
   },
-  "content_scripts": [
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["content.js"],
-      "run_at": "document_idle",
-      "all_frames": false
-    },
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["content-main.js"],
-      "run_at": "document_idle",
-      "all_frames": false,
-      "world": "MAIN"
-    }
-  ],
   "action": {
     "default_title": "Whipped — click to select elements",
     "default_icon": {
