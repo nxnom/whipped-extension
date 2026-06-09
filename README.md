@@ -1,6 +1,10 @@
 # Whipped Extension
 
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/codkafoociihebdklkpfjjoacenkkhci?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/codkafoociihebdklkpfjjoacenkkhci)
+
 A standalone Chrome/Chromium extension for capturing UI context off any web page and turning it into a ready-to-paste prompt for your AI coding agent.
+
+**[Install from the Chrome Web Store →](https://chromewebstore.google.com/detail/codkafoociihebdklkpfjjoacenkkhci)**
 
 ## What it does
 
@@ -14,6 +18,12 @@ It then builds a **YAML prompt** you can paste directly into [Whipped](https://g
 The toolbar icon is grayscale at rest and turns full color while select mode is active.
 
 ## Install
+
+### From the Chrome Web Store (recommended)
+
+[**Add to Chrome →**](https://chromewebstore.google.com/detail/codkafoociihebdklkpfjjoacenkkhci)
+
+### From source (development)
 
 1. Go to `chrome://extensions` in Chrome or any Chromium-based browser
 2. Enable **Developer mode** (toggle in the top-right)
